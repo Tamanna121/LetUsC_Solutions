@@ -9,5 +9,6 @@ int main()
     D=C-D;
     C=C-D;
     printf("the interchange value of C &D = %f %f",C,D);
+    printf("the interchange value of C &D = %f %f",C,D);
     return 0;
 }
