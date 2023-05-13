@@ -29,3 +29,7 @@
     (f) There should be a space between else and if, as there is no "elseif" syntax in C,"else if" exists.
 
     (g) "&" Operator is missing before variables "a" and "b".
+
+ ## [C]
+ 
+       
