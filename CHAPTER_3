@@ -38,3 +38,16 @@
     (d)True
     (e)True
     (f)True       
+
+## [D]
+
+
+(a) Multiples statements         - [9] sequence
+(b) Else block                   - [8] if-else
+(c) ;                            - [7] null statement
+(d) <> <= >= == !=               - [3] relational operator
+(e) ==                           - [2] comparison operator
+(f) +-*/%                        - [6] arithmetic operator
+(g) =                            - [1] assignment operator
+(h) Default control instruction  - [4] optional
+(i) Decision control instruction - [5] {}
