@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int j, k, i, count;
-    while (i = 1, i <= 3000)
+    int j=1, k, i=1, count=0;
+    while (i <= 30000)
     {
         count = 0;
-        while (j = 1, j * j * j <= i)
+        while (j * j * j <= i)
         {
-            while (k = 1, j * j * j + k * k * k <= i)
+            k=j;
+            while ( j * j * j + k * k * k <= i)
             {
                 if (j * j * j + k * k * k == i)
                 {
@@ -20,7 +21,7 @@ int main()
         i++;
         if (count == 2)
         {
-            printf("%d", i);
+            printf("%d\n", i);
         }
     }
     return 0;
